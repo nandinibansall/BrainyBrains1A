@@ -44,8 +44,11 @@ Built-in libraries: os, json, collections.Counter
 
 │
 ├── input/           ← Folder containing the input PDF files
+
 ├── output/          ← JSON outputs go here after processing
+
 ├── extract.py       ← Main Python script
+
 └── README.md        ← Documentation (this file)
 
 **🧪 Expected Execution**
