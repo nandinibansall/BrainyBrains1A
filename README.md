@@ -41,6 +41,7 @@ Built-in libraries: os, json, collections.Counter
 **📦 Directory Structure**
 
 /app
+
 │
 ├── input/           ← Folder containing the input PDF files
 ├── output/          ← JSON outputs go here after processing
