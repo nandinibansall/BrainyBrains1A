@@ -23,10 +23,13 @@ The top 4 heading font sizes are mapped to H1–H4 levels.
 
 {
   "title": "Main Document Title",
+  
   "outline": [
+  
     {"level": "H1", "text": "Heading Text", "page": 1},
     {"level": "H2", "text": "Subheading Text", "page": 2},
     ...
+    
   ]
 }
 
