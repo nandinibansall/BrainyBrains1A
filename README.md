@@ -1,11 +1,11 @@
-#📝 PDF Heading Extractor
+*📝 PDF Heading Extractor*
 This tool extracts the main title and hierarchical headings (H1, H2, H3, ...) from PDF documents and outputs a clean JSON representation containing:
 
 The main title (extracted from the top of page 1).
 
 Structured headings with levels and corresponding page numbers.
 
-#🚀 Approach
+*🚀 Approach*
 PDF Parsing with PyMuPDF (fitz):
 
 Each page of the PDF is parsed to identify text blocks, lines, and font sizes.
@@ -37,12 +37,12 @@ Output Format:
   ]
 }
 
-#🛠️ Libraries Used
+*🛠️ Libraries Used*
 PyMuPDF (fitz) – For parsing and analyzing PDFs.
 
 Built-in libraries: os, json, collections.Counter
 
-#📦 Directory Structure
+*📦 Directory Structure*
 /app
 │
 ├── input/           ← Folder containing the input PDF files
@@ -50,7 +50,7 @@ Built-in libraries: os, json, collections.Counter
 ├── extract.py       ← Main Python script
 └── README.md        ← Documentation (this file)
 
-#🧪 Expected Execution
+*🧪 Expected Execution*
 The solution runs as follows:
 
 1. All .pdf files in /app/input/ are scanned.
